@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "ivory-amphora-408717",
+    "private_key_id": "dd4ebc7c8eb9ab4bddadf813bd4b3af18e60e716",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCh86a+yLMF57WK\nXfTxVe/gfY+klkRGDyYYjfZPFz/z7HEqIUs8o1kTkOG+RamXXWJLCwq7poagJHRZ\nfys8E1vM/1N9vzzE6gQnXGk5vZinr2HnAfSHT/BtQi2gige39g6KgRjahwh1f8MB\nWNx9SUm81I6PewHnswciOYG8U79SdJ01JApGBBYiyaNdV3aTeyy4hY9HbHjU9aIt\nmPi0vWH4BvQPFPISOp68RQ01g9bKx4X2UIiF4JkuPcK3BQj1qDSC5lbXBbES4ebx\nDSR+o9SfjyvqwUJl7TIaz5XO6nLF4gcS7it+bRAdhig6YqJ7DyYnkJXpXaHhxHlc\nGe2cxvMJAgMBAAECggEADgGAGW5KezeBffynrwpnUyMQveNn9qYfPY7jbw4b8Aix\n9bqI4u7eiIBmYXntU4OWOVa0YCuj52wXqtjCYLDs5sLrEcws4Xu6jbvidsWkktXq\nUdvbrasWaCCJySE+zyRGuCg3gcidTOoWb4KjmOsyZxP720FAVi0nsAhIpcSZXnRH\nkZ5tB/nCGgMyjVn46H7RkQpeJP0ycTwPYlW5C2jUhKku52+2hJSecezmYJKEWWzG\nvwfJA6o2bkG65DoYgW2tA0FTvLUM6gNePjHI1yg+fdMKO5qoibkr0KyZlrB9/ZQe\nsKuTt/WHuy8xXqjfSVVebPvx+UUinT6mCFVEqiPJgQKBgQDXH+B3Vk233FBvb0Cn\nO5JmQpar7xK9+BJ0fjR4Fe/sFPG/a1pMDcrTI29b0gua9F3B1n6L6qg0GNkAxXVY\n8BvoAgoJvlhTlHeZgmjqbFrOdzE45xZ8UG6jpGFS6JXmNeSmD0rDmnn4wQurzWjI\nHiwtniCzpNoDRW33eRdD3at/yQKBgQDAuVYbzKNFI3GOJow8DXN+gN3io+O7aG7v\nBP36FPqEyBMdGgp8FpxOmrR1U+/L6g40A4Vs3KiCJoQnYZbhoEvQKNAmv1J+S0im\n87dMIUErX3WDVJFN0ZM4EyfYFlnwQYc6+EQ7Hb3rjM+85eytfZenL1gmaopgnKow\n20MG/+n5QQKBgQDKk1f6yKhy5OJRrUACutRHu5jK21yYy0wFqvqZwn6ln6tuiBcF\n208NuCabHpaTGl5XtDaCZzxxopxmX4r7b0+4EIOHXVkri3l8cxN8/QAdwJv3a5T/\nB3bIXnjPa/oMSN/BiFDtFUCagJ8O72UmXVNYubktsaUiw3SkP8EqxUlEEQKBgEjP\nvLCUB7s/QM+r0J9/lXrdxPazZH6RXhf/ktTAyEUSMeZ0yDFJeZRY7oTFSXuI2gTc\nr7QJScCiPJuESzTDEuF6CeoZrlj4qGIrAb1Jcw2n6wXLFXqJC03MLul8yE3089pb\noauT+QTdFj8PvvNs17baNDuPVOhbSBFdRV2HoiYBAoGABiIw255X3uo7VRAsIPNv\nfdLFrw9Q61je9tE+uEEreTpeOXSqM887DcR7bgaplMOIZiUxju2iEB2cUJF4eaJC\nfZfESN9jVSQ/wvOlWlvSCasxG4cgzfyyhOCj7zpFDM+0FX7GKUMb00BKZNFQAfrL\nk8NFOd5e+kqj57Cr/ITI35A=\n-----END PRIVATE KEY-----\n",
+    "client_email": "theivlev@ivory-amphora-408717.iam.gserviceaccount.com",
+    "client_id": "111709275335399692491",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/theivlev%40ivory-amphora-408717.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
