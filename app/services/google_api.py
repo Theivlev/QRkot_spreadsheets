@@ -4,9 +4,9 @@ from aiogoogle import Aiogoogle
 from app.core.config import settings
 
 FORMAT = "%Y/%m/%d %H:%M:%S"
-NOW_DATE_TIME = datetime.now().strftime(FORMAT)
+
 SPREADSHEET_BODY = {
-    'properties': {'title': f'Отчёт на {NOW_DATE_TIME}',
+    'properties': {'title': '',
                    'locale': 'ru_RU'},
     'sheets': [{'properties': {'sheetType': 'GRID',
                                'sheetId': 0,
@@ -16,13 +16,15 @@ SPREADSHEET_BODY = {
 }
 
 TABLE_VALUES = [
-    ['Отчёт от', NOW_DATE_TIME],
+    ['Отчёт от', ''],
     ['Топ проектов по скорости закрытия'],
     ['Название проекта', 'Время сбора', 'Описание']
 ]
 
 
 async def spreadsheets_create(wrapper_services: Aiogoogle) -> str:
+    now_date_time = datetime.now().strftime(FORMAT)
+    SPREADSHEET_BODY['properties']['title'] = f'Отчёт на {now_date_time}'
     service = await wrapper_services.discover('sheets', 'v4')
     response = await wrapper_services.as_service_account(
         service.spreadsheets.create(json=SPREADSHEET_BODY)
@@ -54,6 +56,8 @@ async def spreadsheets_update_value(
 ) -> None:
     service = await wrapper_services.discover('sheets', 'v4')
     table_values = TABLE_VALUES.copy()
+    now_date_time = datetime.now().strftime(FORMAT)
+    table_values[0][1] = now_date_time
     for project in charity_projects:
         new_row = [
             str(project.name),
